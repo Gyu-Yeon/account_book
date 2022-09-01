@@ -1,9 +1,72 @@
 .main-back-ground {
+  margin: auto;
   text-align: center;
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
 
-@media (max-width: 768px) {
-  body {
-    color: red;
+.header {
+  display: flex;
+  height: 3.5rem;
+  justify-content: space-between;
+  .left-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5rem;
+    color: white;
+  }
+  .middle-header {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .right-header {
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
   }
 }
+
+.budget {
+  display: flex;
+  flex-flow: column;
+  .incomeOutcome {
+    display: flex;
+    margin-bottom: 10px;
+    .income {
+      text-align: left;
+      padding-left: 10px;
+      width: 50%;
+      color: white;
+      font-size: 1rem;
+    }
+    .outcome {
+      text-align: left;
+      padding-left: 10px;
+      width: 50%;
+      color: white;
+      font-size: 1rem;
+    }
+  }
+  .balance {
+    text-align: left;
+    padding-left: 10px;
+    width: 50%;
+    color: white;
+    font-size: 1rem;
+  }
+}
+
+// @media (max-width: 768px) {
+//   body {
+//     background-color: red;
+//   }
+// }
