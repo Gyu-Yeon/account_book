@@ -68,6 +68,11 @@
 .calender {
   background-color: antiquewhite;
   height: 400px;
+  .calenderRow1 {
+    height: 10px;
+    display: flex;
+    background-color: aquamarine;
+  }
 }
 
 .categories {
