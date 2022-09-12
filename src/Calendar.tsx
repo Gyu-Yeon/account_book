@@ -8,7 +8,7 @@ export function Calender() {
 
   return (
     <div className="calender mt-1">
-      <div className="row1">
+      <div className="calenderRow1">
         {week.map((item) => {
           return <div>{item}</div>;
         })}
