@@ -8,11 +8,16 @@ export function Calender() {
 
   return (
     <div className="calender mt-1">
-      <div className="calenderRow1">
+      <div className="calendarRow1">
         {week.map((item) => {
-          return <div>{item}</div>;
+          return (
+            <div className="eachDay" key={item}>
+              {item}
+            </div>
+          );
         })}
       </div>
+      <div className="calendarRow2"></div>
     </div>
   );
 }
